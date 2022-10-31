@@ -20,7 +20,7 @@ function Income() {
             if (decodedToken.exp * 1000 < Date.now()) {
                 navigate("/dashboard")
             } else {
-                const response = await axios.get("http://localhost:3003/income/get", {
+                const response = await axios.get("https://node-moneymanager.herokuapp.com/income/get", {
                     headers: {
                         accesstoken: localStorage.getItem("token"),
                     },
@@ -37,7 +37,7 @@ function Income() {
         if (decodedToken.exp * 1000 < Date.now()) {
             navigate("/dashboard");
         } else {
-            const response = await axios.post("http://localhost:3003/income/create",
+            const response = await axios.post("https://node-moneymanager.herokuapp.com/income/create",
                 {
                     income: {
                         monthlyIncome: value,
@@ -63,7 +63,7 @@ function Income() {
         if (decodedToken.exp * 1000 < Date.now()) {
             navigate("/dashboard");
         } else {
-            const response = await axios.put(`http://localhost:3003/income/update/${id}`,
+            const response = await axios.put(`https://node-moneymanager.herokuapp.com/income/update/${id}`,
                 {
                     income: {
                         monthlyIncome: value,
