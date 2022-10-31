@@ -19,7 +19,7 @@ function Dashboard() {
             if (decodedToken.exp * 1000 < Date.now()) {
                 navigate("/dashboard")
             } else {
-                const response = await axios.get("http://localhost:3003/overview/get", {
+                const response = await axios.get("https://node-moneymanager.herokuapp.com/overview/get", {
                     headers: {
                         accesstoken: localStorage.getItem("token"),
                     },
