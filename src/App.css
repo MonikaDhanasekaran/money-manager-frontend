@@ -1,0 +1,188 @@
+/* Images */
+
+/* Login Page */
+
+div .login{
+  background-image: url("../src/images/image.jpg");
+  height: 20cm;
+}
+
+/* Register Page */
+
+div .register{
+  background-image: url("../src/images/register.jpg");
+  width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Dashboard Page */
+
+div .dashboard{
+  background-image: url("../src/images/money.jpg");
+  width: 100%;
+  height: 20cm;
+  position: fixed;
+}
+
+/* Income Page */
+
+div .income{
+  background-image: url("../src/images/income.jpg");
+  position: fixed;
+  width: 100%;
+  height: 20cm;
+}
+
+/* Create Income Page */
+
+#CreateIncome{
+  background-image: url("../src/images/createIncome.jpg");
+  position: fixed;
+  width: 100%;
+  height: 20cm;
+}
+
+/* Update Income Page */
+
+#UpdateIncome{
+  background-image: url("../src/images/updateIncome.png");
+  position: fixed;
+  width: 100%;
+  height: 20cm;
+}
+
+/* Expense Page */
+
+div .expense{
+  background-image: url("../src/images/expense.jpg");
+  position: fixed;
+  width: 100%;
+  height: 20cm;
+}
+
+/* Create Expense Page */
+
+#CreateExpense{
+  background-image: url("../src/images/createExpense.jpeg");
+  position: fixed;
+  width: 100%;
+  height: 20cm;
+}
+
+/* Update Expense Page */
+
+#UpdateExpense{
+  background-image: url("../src/images/updateExpense.jpg");
+  position: fixed;
+  width: 100%;
+  height: 20cm;
+}
+
+/* Forgot Password */
+
+/* Forgot Password Div */
+
+#forgotPasswordPage{
+  background-image: url("../src/images/forgotpassword.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 20cm;
+  position: fixed;
+}
+
+/* Card ForgotPassword */
+
+#cardForgotPassword{
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 13%;
+  border-radius: 30px;
+}
+
+/* ForgotPassword Typography */
+
+#forgotPasswordTypo{
+  font-family: "Comic Sans MS";
+  font-size: 35px;
+}
+
+/* Forgot Passsword Button */
+
+#forgotPasswordButton{
+  width: 30%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Change Password */
+
+#changePasswordPage{
+  background-image: url("./images/changepassword.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 20cm;
+  position: fixed;
+}
+
+/* Change Password Card */
+
+#cardChangePassword{
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 12%;
+  border-radius: 40px;
+}
+
+/* ChangePassword Typography */
+
+#changePasswordTypo{
+  font-family: "Comic Sans MS";
+  font-size: 35px;
+}
+
+/* Change Passsword Button */
+
+#changePasswordButton{
+  width: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
