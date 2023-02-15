@@ -38,7 +38,7 @@ function Login() {
         <div className="login"><br /> <br />
             <form onSubmit={handleSubmit} >
                 <Grid>
-                    <Paper className="paper" elevation={10} style={{ padding: 10, height: "65vh", width: 350, margin: "80px auto", borderRadius: "50px" }}>
+                    <Paper className="paper" elevation={10} style={{ padding: 10, height: "70vh", width: 350, margin: "80px auto", borderRadius: "50px" }}>
                         <Grid align="center"> <br />
                             <LoginIcon sx={{ color: green[500], fontSize: 50 }} />
                             <Typography variant="h4" component="div" style={{ fontSize: "40px", fontFamily: "Verdana" }}> Sign In </Typography> <br /> <br />
