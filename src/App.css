@@ -5,6 +5,9 @@
 div .login{
   background-image: url("../src/images/image.jpg");
   height: 20cm;
+  width: 100%;
+  background-size: contain;
+  position: fixed;
 }
 
 /* Register Page */
